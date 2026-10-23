@@ -1,0 +1,1 @@
+This folder contains my work for designing a custom magnetic sensor for my robotic hand.

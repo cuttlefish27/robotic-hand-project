@@ -1,0 +1,5 @@
+#Requirements for the software side
+#The bpy package will not be installed, instead blender_control must be run inside the blender file's scripting location, which has bpy preinstalled
+pyserial
+numpy
+matplotlib

@@ -52,6 +52,8 @@ Investigating how measurements from multiple sensing elements can be used to est
 ## Current Development Goals
 Steps 1 and 2 have been completed. Currently there is a working prototype of the sensor that has proved that the magnetic response is measureable and is dependent on the applied force. The current software can accurately detect when the sensor is being pressed.
 
+The development goals now are as follows:
+
 - Improve the consistency and reliability of magnetic field measurements.
 - Establish a calibration procedure using known applied forces.
 - Investigate the relationship between sensor deformation, magnetic field measurements, and applied force.

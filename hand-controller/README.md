@@ -34,11 +34,11 @@ Its responsibilities include:
 - Calculating joint angles using kinematic methods.
 - Transmitting actuator commands over a serial connection.
 
-Python is used for the computer-side processing, with Blender providing the 3D environment for manipulating and visualizing hand poses.
+ Blender provides the 3D environment for manipulating the hand, while a script extracts the joint angles and sends them to a the blender-MCU bridge using a sockets server. The blender-MCU bridge runs two parallel threads, the socket thread recieves data from blender via the socket connection, while the serial thread which calculates the servo angles from the data provided by the sockets thread.
 
 ## Microcontroller Firmware
 
-The microcontroller firmware translates incoming commands into physical actuator movements.
+The microcontroller firmware executes the commands and produces the actuator movements.
 
 The current hardware setup uses an ESP32 and a PCA9685 servo controller.
 

@@ -21,7 +21,7 @@ robotic-hand-project/
 └── README.md
 ```
 
-### `hand-controller/` — Robotic Hand Control
+### [`hand-controller/`](/hand-controller/README.md) — Robotic Hand Control
 
 Contains the software for controlling the robotic hand from a computer and microcontroller.
 
@@ -33,7 +33,7 @@ The project explores:
 - Communication between computer-side software and the microcontroller.
 - Servo-based actuation of the robotic hand.
 
-### `sensor-dev/` — Soft Magnetic Tactile Sensor
+### [`sensor-dev/`](/sensor-dev/README.md) — Soft Magnetic Tactile Sensor
 
 Contains the hardware designs and software for developing a compact tactile sensor for the robotic hand.
 
